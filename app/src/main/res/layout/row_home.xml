@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    cardview:cardCornerRadius="0dp"
+    cardview:cardElevation="2dp"
+    cardview:cardUseCompatPadding="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_row"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_header"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_annonce_user"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                cardview:civ_border_width="0.7dp"
+                cardview:civ_border_color="@color/colorLight"
+                android:src="@drawable/avatar" />
+
+
+            <RelativeLayout
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_annonce_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorBlack"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_annonce_user_name"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/icon_annonce_place"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/type"
+                        android:padding="1dp"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:id="@+id/tv_annonce_type"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:textSize="13sp"
+                        android:layout_gravity="center_vertical"/>
+                    <ImageView
+                        android:id="@+id/icon_annonce_time"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/timehome"
+                        android:padding="3dp"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:id="@+id/tv_annonce_time"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp" />
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_header"
+            android:orientation="vertical"
+            android:background="@drawable/image_border">
+            <TextView
+                android:id="@+id/tv_annonce_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"/>
+            <ImageView
+                android:id="@+id/img_annonce_picture"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="15dp"
+                android:paddingTop="10dp"
+                android:src="@drawable/notavailable2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+                <TextView
+                    android:id="@+id/tv_annonce_contact"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorLightGray"
+                    android:textStyle="bold"
+                    android:text="Contact"
+                    android:textSize="15sp"
+                    android:gravity="center_horizontal" />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="15dp"
+                    android:background="@color/colorLight"/>
+
+                <TextView
+                    android:id="@+id/tv_annonce_report"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorLightGray"
+                    android:textStyle="bold"
+                    android:text="Report"
+                    android:textSize="15sp"
+                    android:gravity="center_horizontal" />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="15dp"
+                    android:background="@color/colorLight"/>
+
+
+                <TextView
+                    android:id="@+id/tv_annonce_detail"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorLightGray"
+                    android:textStyle="bold"
+                    android:text="Details..."
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:clickable="true"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

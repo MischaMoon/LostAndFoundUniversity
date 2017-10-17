@@ -1,0 +1,36 @@
+<resources>
+
+    <array name="operation">
+        <item name="add_advertisement"> Add advertisement</item>
+        <item name="cancel"> Cancel </item>
+    </array>
+    <array name="contact">
+        <item name="message"> Message </item>
+        <item name="call"> Call </item>
+        <item name="sms"> SMS </item>
+    </array>
+    <array name="type">
+        <item name="Type"> Type</item>
+        <item name="Lost"> Lost</item>
+        <item name="Found"> Found </item>
+    </array>
+    <array name="object">
+        <item name="Object"> Object </item>
+        <item name="PC"> PC </item>
+        <item name="Key"> Key </item>
+        <item name="PC charger"> PC charger </item>
+        <item name="Phone charger"> Phone charger </item>
+        <item name="Phone"> Phone </item>
+        <item name="Paper"> Paper </item>
+        <item name="Document"> Document </item>
+        <item name="Wallet"> Wallet </item>
+        <item name="Bag"> Bag </item>
+        <item name="Other">Other</item>
+    </array>
+    <array name="search">
+        <item name="Search by"> Search by</item>
+        <item name="Single Date"> Single Date</item>
+        <item name="Period"> Period </item>
+    </array>
+
+</resources>

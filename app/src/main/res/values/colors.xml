@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorEsprit">#C5241C</color>
+    <color name="colorGray">#757575</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLight">#EEEEEE</color>
+    <color name="colorLightGray">#a2a5af</color>
+    <color name="indicator_unselected">#4D000000</color>
+    <color name="black_trans80">#14000000</color>
+    <color name="page_two"> #E53935</color>
+    <color name="page_one"> #F44336</color>
+    <color name="page_three">#D32F2F</color>
+    <color name="colorEspritPlus">#A70600</color>
+</resources>

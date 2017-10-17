@@ -1,0 +1,231 @@
+{
+  "project_info": {
+    "project_number": "671480781666",
+    "firebase_url": "https://lostandfound-a2c13.firebaseio.com",
+    "project_id": "lostandfound-a2c13",
+    "storage_bucket": "lostandfound-a2c13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671480781666:android:c714af66eabc1373",
+        "android_client_info": {
+          "package_name": "com.esprit.mobile.lostandfound"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671480781666-p0geedf80bop45q9s17l05h75cm61db2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esprit.mobile.lostandfound",
+            "certificate_hash": "433B752B9C5E0BF0FD2D5A62AD8C8805FEC81473"
+          }
+        },
+        {
+          "client_id": "671480781666-7fug409ee7q5o26k6369qpt2k23mtid8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esprit.mobile.lostandfound",
+            "certificate_hash": "3AAC12C021E10C1FB07A5FB9F011ECF0096BCBAE"
+          }
+        },
+        {
+          "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDa89flnMAWxeA-sNoncuF28mxVq64ToI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671480781666-36liouva8a5ddf053nudua8mldve18hs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.LostAndFound"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671480781666:android:8854f431f007ff69",
+        "android_client_info": {
+          "package_name": "com.espritmobile.lostandfounduniversity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671480781666-aro8h7ldosdlvvumnq05bsfrusu8ivu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.espritmobile.lostandfounduniversity",
+            "certificate_hash": "86091EFC57CAC3EBD12CB92773E41E9CFE12D5F8"
+          }
+        },
+        {
+          "client_id": "671480781666-vdffshfi9sth6qc3h762d8vft0clj18p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.espritmobile.lostandfounduniversity",
+            "certificate_hash": "B005D7CEA79492CC822BA1930BFD8D13D2F09CE9"
+          }
+        },
+        {
+          "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDa89flnMAWxeA-sNoncuF28mxVq64ToI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671480781666-36liouva8a5ddf053nudua8mldve18hs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.LostAndFound"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671480781666:android:cb56a7d056ba4167",
+        "android_client_info": {
+          "package_name": "alessandro.firebaseandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671480781666-fv8d10ehi8rt3uq31ijugqor0rrhl8ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alessandro.firebaseandroid",
+            "certificate_hash": "433B752B9C5E0BF0FD2D5A62AD8C8805FEC81473"
+          }
+        },
+        {
+          "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDa89flnMAWxeA-sNoncuF28mxVq64ToI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671480781666-36liouva8a5ddf053nudua8mldve18hs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.LostAndFound"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671480781666:android:caf4cc7e7acb37d6",
+        "android_client_info": {
+          "package_name": "com.ygorcesar.jamdroidfirechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671480781666-ushch7ritifegdiajuthe6caq88l2p4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ygorcesar.jamdroidfirechat",
+            "certificate_hash": "433B752B9C5E0BF0FD2D5A62AD8C8805FEC81473"
+          }
+        },
+        {
+          "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDa89flnMAWxeA-sNoncuF28mxVq64ToI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671480781666-eevpr5hpql839fti899u9g1n2br3fv4r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "671480781666-36liouva8a5ddf053nudua8mldve18hs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.esprit.LostAndFound"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

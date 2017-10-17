@@ -1,0 +1,284 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp">
+
+            <com.flaviofaria.kenburnsview.KenBurnsView
+                android:id="@+id/header_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/navigation_header_image" />
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/proj"
+                android:elevation="4dp"
+                android:paddingBottom="24dp"
+                android:layout_below="@+id/header_cover_image"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true">
+
+
+
+
+
+                <TextView
+                    android:id="@+id/user_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="76dp"
+                    android:text=""
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/user_profile_short_bio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/user_profile_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="12dp"
+                    android:text="Student"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_layout"
+                android:id="@+id/inputs_layout"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/layout_confirm_refus_update"
+                    android:layout_gravity="center_horizontal"
+                    android:weightSum="2">
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+
+                        android:id="@+id/btn_refus_update"
+                        android:background="@mipmap/noupdate"
+                        android:layout_weight="0.20" />
+
+
+                    <ImageButton
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="right"
+                        android:id="@+id/btn_confirm_update"
+                       android:background="@mipmap/confirm"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:id="@+id/tv_username"
+                        android:background="#fff"
+                        android:drawableLeft="@mipmap/u"
+                        android:gravity="center_vertical"
+                        android:drawablePadding="10dp"
+                        android:textSize="18sp"
+                        android:clickable="true"
+                        android:elevation="2dp"
+                        android:padding="20dp"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorBlack"/>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@mipmap/pencil"
+                        android:layout_weight="4"
+                        android:layout_gravity="center"
+                        android:id="@+id/btn_update_profile_name"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#fff"
+                        android:clickable="true"
+                        android:elevation="2dp"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@mipmap/em"
+                        android:gravity="center_vertical"
+                        android:padding="20dp"
+                        android:textSize="18sp"
+                        android:id="@+id/tv_email"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorBlack"/>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@mipmap/pencil"
+                        android:layout_weight="4"
+                        android:layout_gravity="center"
+                        android:id="@+id/btn_update_profile_mail"/>
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="#fff"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:padding="20dp"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@mipmap/mortarboard"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:id="@+id/tv_university"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorBlack"/>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@mipmap/pencil"
+                        android:layout_weight="4"
+                        android:layout_gravity="center"
+                        android:id="@+id/btn_update_profile_university"/>
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="#fff"
+                        android:clickable="true"
+                        android:elevation="4dp"
+                        android:drawablePadding="10dp"
+                        android:padding="20dp"
+                        android:drawableLeft="@mipmap/phone"
+                        android:gravity="center_vertical"
+                        android:textSize="18sp"
+                        android:id="@+id/tv_phone"
+                        android:layout_weight="1"
+                        android:textColor="@color/colorBlack"
+                        android:inputType="phone"/>
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:src="@mipmap/pencil"
+                        android:layout_weight="4"
+                        android:layout_gravity="center"
+                        android:id="@+id/btn_update_profile_phone"/>
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Update password"
+                    android:textColor="@color/colorEsprit"
+                    android:id="@+id/btn_update_profile_pass"
+                    android:background="@drawable/roundbutton"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"/>
+
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/btn_logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    app:backgroundTint="@color/colorEsprit"
+                    android:src="@mipmap/logout"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"/>
+
+            </LinearLayout>
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/user_profile_photo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/profile_circular_border_imageview"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FFFFFF"
+                android:elevation="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/prpro"
+                android:layout_above="@+id/inputs_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="100dp" />
+
+
+        </RelativeLayout>
+
+
+</ScrollView>
